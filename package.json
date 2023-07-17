@@ -1,0 +1,23 @@
+{
+  "name": "nodejs-training",
+  "version": "1.0.0",
+  "description": "NodeJS course",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "keywords": [
+    "node",
+    "nodejs"
+  ],
+  "author": "VDV <e-mail>",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "node-fetch": "^2.6.12"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
